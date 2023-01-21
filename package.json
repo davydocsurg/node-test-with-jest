@@ -1,8 +1,8 @@
 {
     "name": "node-rest-api",
     "version": "1.0.0",
-    "description": "REST API with nodejs",
-    "main": "index.ts",
+    "description": "REST API with Nodejs",
+    "main": "src/index.ts",
     "scripts": {
         "dev": "ts-node-dev --respawn --transpile-only index.ts",
         "test": "mocha --recursive --timeout 10000 --exit build/test"
@@ -14,7 +14,8 @@
     "keywords": [
         "typescript",
         "javascript",
-        "nodejs"
+        "nodejs",
+        "jest"
     ],
     "author": "davydocsurg",
     "license": "ISC",
